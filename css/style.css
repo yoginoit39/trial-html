@@ -1,0 +1,47 @@
+#text-main{
+    padding-left: 40px;
+    border-style: solid;
+    border-width: thin;
+}
+
+#main-pic{
+    border-style: solid;
+    border-width: thin;
+   
+    
+}
+
+@media only screen and (max-width: 600px) {
+        /* styles here will apply to any csss element within this media query when the screen reaches 600px  */
+    .img-div {
+        background: maroon;
+    } 
+    
+    .txt-div {
+        background: lightblue;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    /* styles here will apply to any csss element within this media query when the screen reaches 600px  */
+    .img-div {
+        background: lightblue;
+    } 
+    
+    .txt-div {
+        background: maroon;
+    }
+}
+
+/* .container-fluid{
+    min-height: 130vh;
+    
+
+} */
+
+
+
+/* .card{
+    margin: 30px;
+    height: 200px;
+} */
+
